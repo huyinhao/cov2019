@@ -18,7 +18,7 @@ var r1_option = {
 		},
     },
 	legend:{
-		data:['新增境外输入','新增无症状感染者'],
+		data:['累计境外输入','累计无症状感染者'],
 		left:'right',
 		top:'8%',
 		textStyle:{
@@ -64,13 +64,13 @@ var r1_option = {
 		}
 	}],
 	series:[{
-		name:'新增境外输入',
+		name:'累计境外输入',
 		type:'line',
 		smooth:true,
 		color:'#a55eea',
 		data:[260,406,529]
 	},{
-		name:'新增无症状感染者',
+		name:'累计无症状感染者',
 		type:'line',
 		smooth:true,
 		color:'#eb3b5a',
