@@ -444,7 +444,3 @@ def get_time_global():
     res = query(sql)
     res = res[0][0].strftime("%Y-%m-%d %H:%M:%S")
     return res
-
-
-if __name__ == '__main__':
-    update_fforeign()
