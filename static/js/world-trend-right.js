@@ -134,7 +134,7 @@ countryRank_option = {
                     shadowOffsetY: 1,
                     position: 'right',
                     distance: 20,
-                    width:70,
+                    width:80,
                     height:45,
                     rich: {
                         a: {
