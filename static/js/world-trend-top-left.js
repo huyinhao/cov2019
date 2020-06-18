@@ -23,7 +23,7 @@ var world_confirm_option = {
         } ,
     },
 	legend:{
-		data:['累计确诊'],
+		data:['累计确诊', '累计治愈'],
 		textStyle:{
             fontSize : 14,
 			color:'#D4F2E7',
@@ -75,7 +75,14 @@ var world_confirm_option = {
 		type:'line',
 		smooth:true,
 		data:[260,406,529]
-	}],
+	},
+	{
+		name:'累计治愈',
+		type:'line',
+		smooth:true,
+		data:[260,406,529]
+	}
+	],
 };
 
 world_confirm.setOption(world_confirm_option)

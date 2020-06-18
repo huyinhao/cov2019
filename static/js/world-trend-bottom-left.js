@@ -24,7 +24,7 @@ var world_else_option = {
         } ,
     },
 	legend:{
-		data:['累计治愈','累计死亡','新增确诊'],
+		data:['累计死亡','新增确诊'],
 		textStyle:{
             fontSize : 14,
 			color:'#D4F2E7',
@@ -73,12 +73,6 @@ var world_else_option = {
 		}
 	}],
 	series:[
-	{
-		name:'累计治愈',
-		type:'line',
-		smooth:true,
-		data:[26,26,26]
-	},
 	{
 		name:'累计死亡',
 		type:'line',
