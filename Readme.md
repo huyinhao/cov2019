@@ -228,10 +228,10 @@ static目录存放各类静态文件
 
 ### 4.1日更新
 
-![imgs view1](https://github.com/huyinhao/cov2019/blob/master/imgs/4.1%E6%9B%B4%E6%96%B0/view1.png)
+![imgs view1](https://github.com/huyinhao/cov2019/blob/master/imgs/view1.png)
 
-![imgs view2](https://github.com/huyinhao/cov2019/blob/master/imgs/4.11%E6%9B%B4%E6%96%B0/view2.png)
+![imgs view2](https://github.com/huyinhao/cov2019/blob/master/imgs/view2.png)
 
-![imgs view3](https://github.com/huyinhao/cov2019/blob/master/imgs/4.1%E6%9B%B4%E6%96%B0/view3.png)
+![imgs view3](https://github.com/huyinhao/cov2019/blob/master/imgs/view3.png)
 
-![imgs view4](https://github.com/huyinhao/cov2019/blob/master/imgs/4.1%E6%9B%B4%E6%96%B0/view4.png)
+![imgs view4](https://github.com/huyinhao/cov2019/blob/master/imgs/view4.png)
