@@ -7,12 +7,14 @@ import nameMap
 
 app = Flask(__name__)
 
+
 # 更新history表和details
 @app.route('/update_china')
 def update_china():
     utils.update_history()
     utils.update_details()
     return render_template('china.html')
+
 
 # 更新history表和fforeign
 @app.route('/update_china_trend')
@@ -21,11 +23,13 @@ def update_china_trend():
     utils.update_details()
     return render_template('china-trend.html')
 
+
 # 更新fforeign表
 @app.route('/update_world')
 def update_world():
     utils.update_fforeign()
     return render_template('world.html')
+
 
 # 更新fforeign, global表
 @app.route('/update_world_trend')
@@ -96,6 +100,7 @@ def get_china_bottom_right():
 @app.route('/china-trend')
 def china_trend():
     return render_template('china-trend.html')
+
 
 # 中国新增、累计确诊趋势，国外累计确诊排行
 @app.route('/test')
@@ -240,7 +245,7 @@ def get_world_trend_left():
     # confirm_add[i] = confirm_add[i] + int(today[1])
     # heal[i] = heal[i] + int(today[-2])
     # dead[i] = dead[i] + int(today[-1])
-    return jsonify({'day': day, 'confirm': confirm, 'confirm_add': confirm_add,  'heal': heal, 'dead': dead})
+    return jsonify({'day': day, 'confirm': confirm, 'confirm_add': confirm_add, 'heal': heal, 'dead': dead})
 
 
 # 获取china-trend右侧数据，国家排行
